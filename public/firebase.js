@@ -5,7 +5,7 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-aut
 // не помню что это
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCnjcc01MNVta4uxv8DuMfW6cs-RZG5_ho",
+  apiKey: "(API KEY NEED TO BE INSERTED MANUALLY)",
   authDomain: "porsche-devibed.firebaseapp.com",
   projectId: "porsche-devibed",
   storageBucket: "porsche-devibed.firebasestorage.app",
@@ -17,3 +17,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
+
